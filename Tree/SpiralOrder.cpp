@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
 using namespace std;
-using namespace std;
+
 
 struct Node
 {
