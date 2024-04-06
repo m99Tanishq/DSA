@@ -28,6 +28,13 @@ void printRootToLeafPaths(Node *root, vector<int> &path)
         }
         cout << endl;
     }
+    /* Reverse Leaf to Root
+    if(!root->left and !root->right){
+        for(auto it = path.rbegin(); it != path.rend(); it++){
+            cout << *it << " ";
+        }
+        cout << endl;
+    }*/
 
     printRootToLeafPaths(root->left, path);
     printRootToLeafPaths(root->right, path);
